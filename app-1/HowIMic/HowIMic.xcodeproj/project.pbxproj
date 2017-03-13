@@ -1,0 +1,568 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		787A29521E7585680002067A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 787A29511E7585680002067A /* AppDelegate.swift */; };
+		787A29551E7585680002067A /* HowIMic.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 787A29531E7585680002067A /* HowIMic.xcdatamodeld */; };
+		787A29571E7585680002067A /* MasterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 787A29561E7585680002067A /* MasterViewController.swift */; };
+		787A29591E7585680002067A /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 787A29581E7585680002067A /* DetailViewController.swift */; };
+		787A295C1E7585680002067A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 787A295A1E7585680002067A /* Main.storyboard */; };
+		787A295E1E7585680002067A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 787A295D1E7585680002067A /* Assets.xcassets */; };
+		787A29611E7585680002067A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 787A295F1E7585680002067A /* LaunchScreen.storyboard */; };
+		787A296C1E7585680002067A /* HowIMicTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 787A296B1E7585680002067A /* HowIMicTests.swift */; };
+		787A29771E7585680002067A /* HowIMicUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 787A29761E7585680002067A /* HowIMicUITests.swift */; };
+		787A29851E7589000002067A /* Mics.swift in Sources */ = {isa = PBXBuildFile; fileRef = 787A29841E7589000002067A /* Mics.swift */; };
+		787A29871E75891D0002067A /* Instruments.swift in Sources */ = {isa = PBXBuildFile; fileRef = 787A29861E75891D0002067A /* Instruments.swift */; };
+		787A298B1E758F940002067A /* Item.swift in Sources */ = {isa = PBXBuildFile; fileRef = 787A298A1E758F940002067A /* Item.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		787A29681E7585680002067A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 787A29461E7585680002067A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 787A294D1E7585680002067A;
+			remoteInfo = HowIMic;
+		};
+		787A29731E7585680002067A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 787A29461E7585680002067A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 787A294D1E7585680002067A;
+			remoteInfo = HowIMic;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		787A294E1E7585680002067A /* HowIMic.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HowIMic.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		787A29511E7585680002067A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		787A29541E7585680002067A /* HowIMic.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = HowIMic.xcdatamodel; sourceTree = "<group>"; };
+		787A29561E7585680002067A /* MasterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MasterViewController.swift; sourceTree = "<group>"; };
+		787A29581E7585680002067A /* DetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
+		787A295B1E7585680002067A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		787A295D1E7585680002067A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		787A29601E7585680002067A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		787A29621E7585680002067A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		787A29671E7585680002067A /* HowIMicTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HowIMicTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		787A296B1E7585680002067A /* HowIMicTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HowIMicTests.swift; sourceTree = "<group>"; };
+		787A296D1E7585680002067A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		787A29721E7585680002067A /* HowIMicUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HowIMicUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		787A29761E7585680002067A /* HowIMicUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HowIMicUITests.swift; sourceTree = "<group>"; };
+		787A29781E7585680002067A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		787A29841E7589000002067A /* Mics.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Mics.swift; sourceTree = "<group>"; };
+		787A29861E75891D0002067A /* Instruments.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Instruments.swift; sourceTree = "<group>"; };
+		787A298A1E758F940002067A /* Item.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Item.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		787A294B1E7585680002067A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		787A29641E7585680002067A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		787A296F1E7585680002067A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		787A29451E7585680002067A = {
+			isa = PBXGroup;
+			children = (
+				787A29501E7585680002067A /* HowIMic */,
+				787A296A1E7585680002067A /* HowIMicTests */,
+				787A29751E7585680002067A /* HowIMicUITests */,
+				787A294F1E7585680002067A /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		787A294F1E7585680002067A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				787A294E1E7585680002067A /* HowIMic.app */,
+				787A29671E7585680002067A /* HowIMicTests.xctest */,
+				787A29721E7585680002067A /* HowIMicUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		787A29501E7585680002067A /* HowIMic */ = {
+			isa = PBXGroup;
+			children = (
+				787A29511E7585680002067A /* AppDelegate.swift */,
+				787A29561E7585680002067A /* MasterViewController.swift */,
+				787A29581E7585680002067A /* DetailViewController.swift */,
+				787A295A1E7585680002067A /* Main.storyboard */,
+				787A295D1E7585680002067A /* Assets.xcassets */,
+				787A295F1E7585680002067A /* LaunchScreen.storyboard */,
+				787A29621E7585680002067A /* Info.plist */,
+				787A29531E7585680002067A /* HowIMic.xcdatamodeld */,
+				787A29841E7589000002067A /* Mics.swift */,
+				787A29861E75891D0002067A /* Instruments.swift */,
+				787A298A1E758F940002067A /* Item.swift */,
+			);
+			path = HowIMic;
+			sourceTree = "<group>";
+		};
+		787A296A1E7585680002067A /* HowIMicTests */ = {
+			isa = PBXGroup;
+			children = (
+				787A296B1E7585680002067A /* HowIMicTests.swift */,
+				787A296D1E7585680002067A /* Info.plist */,
+			);
+			path = HowIMicTests;
+			sourceTree = "<group>";
+		};
+		787A29751E7585680002067A /* HowIMicUITests */ = {
+			isa = PBXGroup;
+			children = (
+				787A29761E7585680002067A /* HowIMicUITests.swift */,
+				787A29781E7585680002067A /* Info.plist */,
+			);
+			path = HowIMicUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		787A294D1E7585680002067A /* HowIMic */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 787A297B1E7585680002067A /* Build configuration list for PBXNativeTarget "HowIMic" */;
+			buildPhases = (
+				787A294A1E7585680002067A /* Sources */,
+				787A294B1E7585680002067A /* Frameworks */,
+				787A294C1E7585680002067A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = HowIMic;
+			productName = HowIMic;
+			productReference = 787A294E1E7585680002067A /* HowIMic.app */;
+			productType = "com.apple.product-type.application";
+		};
+		787A29661E7585680002067A /* HowIMicTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 787A297E1E7585680002067A /* Build configuration list for PBXNativeTarget "HowIMicTests" */;
+			buildPhases = (
+				787A29631E7585680002067A /* Sources */,
+				787A29641E7585680002067A /* Frameworks */,
+				787A29651E7585680002067A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				787A29691E7585680002067A /* PBXTargetDependency */,
+			);
+			name = HowIMicTests;
+			productName = HowIMicTests;
+			productReference = 787A29671E7585680002067A /* HowIMicTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		787A29711E7585680002067A /* HowIMicUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 787A29811E7585680002067A /* Build configuration list for PBXNativeTarget "HowIMicUITests" */;
+			buildPhases = (
+				787A296E1E7585680002067A /* Sources */,
+				787A296F1E7585680002067A /* Frameworks */,
+				787A29701E7585680002067A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				787A29741E7585680002067A /* PBXTargetDependency */,
+			);
+			name = HowIMicUITests;
+			productName = HowIMicUITests;
+			productReference = 787A29721E7585680002067A /* HowIMicUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		787A29461E7585680002067A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0820;
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = HIMC;
+				TargetAttributes = {
+					787A294D1E7585680002067A = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = AFQ2EY8GY3;
+						ProvisioningStyle = Automatic;
+					};
+					787A29661E7585680002067A = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = AFQ2EY8GY3;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 787A294D1E7585680002067A;
+					};
+					787A29711E7585680002067A = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = AFQ2EY8GY3;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 787A294D1E7585680002067A;
+					};
+				};
+			};
+			buildConfigurationList = 787A29491E7585680002067A /* Build configuration list for PBXProject "HowIMic" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 787A29451E7585680002067A;
+			productRefGroup = 787A294F1E7585680002067A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				787A294D1E7585680002067A /* HowIMic */,
+				787A29661E7585680002067A /* HowIMicTests */,
+				787A29711E7585680002067A /* HowIMicUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		787A294C1E7585680002067A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				787A29611E7585680002067A /* LaunchScreen.storyboard in Resources */,
+				787A295E1E7585680002067A /* Assets.xcassets in Resources */,
+				787A295C1E7585680002067A /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		787A29651E7585680002067A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		787A29701E7585680002067A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		787A294A1E7585680002067A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				787A29551E7585680002067A /* HowIMic.xcdatamodeld in Sources */,
+				787A29521E7585680002067A /* AppDelegate.swift in Sources */,
+				787A29571E7585680002067A /* MasterViewController.swift in Sources */,
+				787A29591E7585680002067A /* DetailViewController.swift in Sources */,
+				787A298B1E758F940002067A /* Item.swift in Sources */,
+				787A29871E75891D0002067A /* Instruments.swift in Sources */,
+				787A29851E7589000002067A /* Mics.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		787A29631E7585680002067A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				787A296C1E7585680002067A /* HowIMicTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		787A296E1E7585680002067A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				787A29771E7585680002067A /* HowIMicUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		787A29691E7585680002067A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 787A294D1E7585680002067A /* HowIMic */;
+			targetProxy = 787A29681E7585680002067A /* PBXContainerItemProxy */;
+		};
+		787A29741E7585680002067A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 787A294D1E7585680002067A /* HowIMic */;
+			targetProxy = 787A29731E7585680002067A /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		787A295A1E7585680002067A /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				787A295B1E7585680002067A /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		787A295F1E7585680002067A /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				787A29601E7585680002067A /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		787A29791E7585680002067A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		787A297A1E7585680002067A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		787A297C1E7585680002067A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = AFQ2EY8GY3;
+				INFOPLIST_FILE = HowIMic/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = HIMC.HowIMic;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		787A297D1E7585680002067A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = AFQ2EY8GY3;
+				INFOPLIST_FILE = HowIMic/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = HIMC.HowIMic;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		787A297F1E7585680002067A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = AFQ2EY8GY3;
+				INFOPLIST_FILE = HowIMicTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = HIMC.HowIMicTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/HowIMic.app/HowIMic";
+			};
+			name = Debug;
+		};
+		787A29801E7585680002067A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = AFQ2EY8GY3;
+				INFOPLIST_FILE = HowIMicTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = HIMC.HowIMicTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/HowIMic.app/HowIMic";
+			};
+			name = Release;
+		};
+		787A29821E7585680002067A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = AFQ2EY8GY3;
+				INFOPLIST_FILE = HowIMicUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = HIMC.HowIMicUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = HowIMic;
+			};
+			name = Debug;
+		};
+		787A29831E7585680002067A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = AFQ2EY8GY3;
+				INFOPLIST_FILE = HowIMicUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = HIMC.HowIMicUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = HowIMic;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		787A29491E7585680002067A /* Build configuration list for PBXProject "HowIMic" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				787A29791E7585680002067A /* Debug */,
+				787A297A1E7585680002067A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		787A297B1E7585680002067A /* Build configuration list for PBXNativeTarget "HowIMic" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				787A297C1E7585680002067A /* Debug */,
+				787A297D1E7585680002067A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		787A297E1E7585680002067A /* Build configuration list for PBXNativeTarget "HowIMicTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				787A297F1E7585680002067A /* Debug */,
+				787A29801E7585680002067A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		787A29811E7585680002067A /* Build configuration list for PBXNativeTarget "HowIMicUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				787A29821E7585680002067A /* Debug */,
+				787A29831E7585680002067A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		787A29531E7585680002067A /* HowIMic.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				787A29541E7585680002067A /* HowIMic.xcdatamodel */,
+			);
+			currentVersion = 787A29541E7585680002067A /* HowIMic.xcdatamodel */;
+			path = HowIMic.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 787A29461E7585680002067A /* Project object */;
+}
